@@ -1,7 +1,8 @@
 # Explorando_Buddhabrot
+
 Armazenando testes de parâmetros para auxiliar na criação de figuras de Buddhabrot
 
-  Figuras de Buddhabrot geram imagens maravilhosas e de enorme interesse. Sua forma e processo é associado ao processo de formação do Fractal de Mandelbrot. Em suma, parte-se de números complexos aleatórios somados à (0,0) e repete-se o resultado por ele mesmo e somar ao número previamente escolhido. Aqueles que não fizerem partes do conjunto de Mandelbrot, devem ter seus caminhos registrados na imagem. A figura final é uma espécie de densidade do caminho percorrido por esses números.
+  Figuras de Buddhabrot geram imagens maravilhosas e de enorme interesse. Sua forma e processo é associado ao processo de formação do Fractal de Mandelbrot. Em suma, parte-se de (0,0) e usa-se uma constante (z2) complexa aleatória do plano. Com isso, inicia-se com z1^2 + z2, onde z1 é (0,0) o z1 da próxima iterção. Após c iterações, ou o suficiente para se perceber que o número vai à infinito, registra-se o 'caminho', os resultados de cada iteração, se esses números não forem do conjunto de Mandelbrot. Estes caminhos são registrados na imagem. A figura final é uma espécie de densidade do caminho percorrido por esses números.
 
   Dois arquivos são usados para fazer as figuras: "Buddhabrot.py" e "plot.py". O primeiro contém todo o processo de formação do arquivo de texto com os dados que formarão as figuras. 'plot.py', por sua vez, faz muito pouco mais do que colorir o arquivo e salvar as imagens para diferentes parâmetros.
   
