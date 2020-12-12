@@ -22,6 +22,7 @@ pot = [0.2, 0.4, 0.6, 0.8]
 
 ## Deixamos a escolha basica de cores a cargo de quem roda o programa
 cmap = input("cmap:")
+
 if cmap == "":
     cmap = "inferno"
 for p in pot:
