@@ -13,10 +13,6 @@ argumentos = sys.argv
 
 # argumentos[0] nome desse arquivo
 # argumentos[1] nome do arquivo que contém os valores
-
-## Esse trecho seria escrito de maneira infinitamente mais legível se utilizasse 
-## regular expressions, não tenho paciência pra isso, mas quem quiser mudar não 
-## terá dificuldades
  
 npontos = argumentos[1].split("-")[1][1:]
 
