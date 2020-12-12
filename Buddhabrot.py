@@ -84,7 +84,7 @@ def imagem(rx, ry, ie, sd):
 
     ## Resta salvar o resultado em um arquivo de texto
     end = time.time()
-    np.savetxt('saida.txt', np.matrix(matriz), fmt='%.0f')
+    np.savetxt('saida-n{}-c{}.txt'.format(npontos, ciclos), np.matrix(matriz), fmt='%.0f')
     bar.finish()
 
     return end
@@ -102,11 +102,16 @@ r = [1024, 1024]
 ## Define-se a quantidade de pontos de usa para a execucao da imagem, 'npontos'
 ## Define-se a quantidade de ciclos do processo para cada ponto, 'ciclos'
 
-npontos = 10000000
-ciclos = 600
+npontos = int(input("Quantidade de pontos: "))
+ciclos = int(input("Quantidade de ciclos: "))
 
 ## chama-se a funçao principal para criar o objeto com respectivos parametros
 
 start = time.time()
 time = imagem(r[0], r[1], a, b)
 print(time - start)
+
+## Armazena informações relacionadas ao tempo para fazer cada arquivo. Pode ser interessante no futuro
+timing = open('timing.csv', 'a+')
+timing.write("%.0f, %d, %d\n"%(time - start, ciclos, npontos))
+timing.close()
