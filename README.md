@@ -8,7 +8,7 @@ Armazenando testes de parâmetros para auxiliar na criação de figuras de Buddh
   
   Nas diversas pastas de 'c' estarão os resultados para aquele número de ciclos e vão estar diversas imagens em pastas correspondentes à seus parâmetros. Os tempos necessários na minha máquina para as imagens estão tabelados no pdf "Tabelação_Parâmetros" e de forma um pouco mais interessante no Gráfico 'Tempos por Parametros'. Vale notar que c = 10000 não está no gráfico pois sua escala foge da grandeza de tempo dos outros, mas fica registrado na tabela. Assim, estes dados podem servir de orientação para a escolha própria dos parâmetros.
   
-  Adicionar limites inferiores de iterações antes de adiciona-la à matriz da imagem pode melhorar muito a definição das imagens. O limite inferior depende do número total de iterações, mas algo em torno de ~ 2/5 do número total, deve ser uma boa regra de dedo.
+  Adicionar limites inferiores ao número de iterações de um número, antes de adicionar seu processo à matriz da imagem, pode melhorar muito a definição das imagens. O limite inferior depende do número total de iterações, mas algo em torno de ~ 2/5 do número total, deve ser uma boa regra de dedo.
   
   Uma coisa a se observar é que se escala as cores com uma potência fracionária. O efeito varia de acordo com os parâmetros, podendo ser, ou não, vantajoso.
   
