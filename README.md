@@ -15,14 +15,14 @@
   
   Adicionar limites inferiores ao número de iterações de um número, antes de adicionar seu processo à matriz da imagem, pode melhorar muito a definição das imagens, além de reduzir o tempo de processamento. O limite inferior depende do número total de iterações, mas algo em torno de ~ 2/5 do número total, deve ser uma boa regra de dedo.
   
-  Uma coisa a se observar é que se escala as cores com uma potência fracionária. O efeito varia de acordo com os parâmetros, podendo ser, ou não, vantajoso.
+  Uma coisa a se observar é que se escala as cores com uma potência fracionária. O efeito varia de acordo com os parâmetros, podendo ser, ou não, vantajoso. Para uma quantidade de iterações muito grande (i > 10000), tomar o logarítimo funcionou melhor que a potença fracionária 
   
 ## As imagens geradas
 <img src="https://github.com/eru-iluv/Explorando_Buddhabrot/blob/adding-julia-stuff/imagens_readme/496-c10%5E5-n10%5E6.png" width="500" height="500">
 Essa parece um hipopótamo
 
 <img src="https://github.com/eru-iluv/Explorando_Buddhabrot/blob/adding-julia-stuff/imagens_readme/seismic-npontos.tst.resolucao.1024x1024_p.1.png" width="500">
-
+Já essa parece mais um buda
 ## O que faremos em seguida
    
    _UM SITEZIN!! Yupii!_
