@@ -10,10 +10,19 @@
  ## Como os dados e imagens estão armazenados
  
   Nas diversas pastas de 'c' estarão os resultados para aquele número de ciclos e vão estar diversas imagens em pastas correspondentes à seus parâmetros. Os tempos necessários na minha máquina para as imagens estão tabelados no pdf "Tabelação_Parâmetros" e de forma um pouco mais interessante no Gráfico 'Tempos por Parametros'. Vale notar que c = 10000 não está no gráfico pois sua escala foge da grandeza de tempo dos outros, mas fica registrado na tabela. Assim, estes dados podem servir de orientação para a escolha própria dos parâmetros.
+
+## Conselhos para quem tiver fazendo
   
-  ## Conselhos para quem tiver fazendo
-  Adicionar limites inferiores ao número de iterações de um número, antes de adicionar seu processo à matriz da imagem, pode melhorar muito a definição das imagens. O limite inferior depende do número total de iterações, mas algo em torno de ~ 2/5 do número total, deve ser uma boa regra de dedo.
+  Adicionar limites inferiores ao número de iterações de um número, antes de adicionar seu processo à matriz da imagem, pode melhorar muito a definição das imagens, além de reduzir o tempo de processamento. O limite inferior depende do número total de iterações, mas algo em torno de ~ 2/5 do número total, deve ser uma boa regra de dedo.
   
   Uma coisa a se observar é que se escala as cores com uma potência fracionária. O efeito varia de acordo com os parâmetros, podendo ser, ou não, vantajoso.
   
+## As imagens geradas
+
+
+
 ## O que faremos em seguida
+   
+   _UM SITEZIN!! Yupii!_
+   
+   A ideia é consolidar todos os conhecimentos que obtivemos (Não muitos, tbh) e fazer um minibloguizinho sobre o brásico que encontramos sobre buddhabrot em inglês, com alguns conselhos pra quem tiver fazendo também
