@@ -18,11 +18,13 @@
   Uma coisa a se observar é que se escala as cores com uma potência fracionária. O efeito varia de acordo com os parâmetros, podendo ser, ou não, vantajoso.
   
 ## As imagens geradas
+<img src="https://github.com/eru-iluv/Explorando_Buddhabrot/blob/adding-julia-stuff/imagens_readme/496-c10%5E5-n10%5E6.png" width="500" height="500">
+Essa parece um hipopótamo
 
-
+<img src="https://github.com/eru-iluv/Explorando_Buddhabrot/blob/adding-julia-stuff/imagens_readme/seismic-npontos.tst.resolucao.1024x1024_p.1.png" width="500">
 
 ## O que faremos em seguida
    
    _UM SITEZIN!! Yupii!_
    
-   A ideia é consolidar todos os conhecimentos que obtivemos (Não muitos, tbh) e fazer um minibloguizinho sobre o brásico que encontramos sobre buddhabrot em inglês, com alguns conselhos pra quem tiver fazendo também
+   A ideia é consolidar todos os conhecimentos que obtivemos (Não muitos, tbh) e fazer um minibloguizinho sobre o brásico que encontramos sobre buddhabrot em português, com alguns conselhos pra quem tiver fazendo também
